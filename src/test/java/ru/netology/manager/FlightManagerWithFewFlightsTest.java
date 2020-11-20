@@ -6,7 +6,7 @@ import ru.netology.domain.Flight;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class FlightManagerTest {
+class FlightManagerWithFewFlightsTest {
 
     private FlightManager manager = new FlightManager();
 
