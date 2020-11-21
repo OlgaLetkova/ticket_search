@@ -20,7 +20,7 @@ public class FlightManager {
         Flight[] result = new Flight[items.length];
         int index = 0;
         for (Flight item : items) {
-            if (from == item.getFrom() && to == item.getTo()) {
+            if (from.contentEquals(item.getFrom()) && to.contentEquals(item.getTo())) {
                 result[index] = item;
                 index++;
             }
